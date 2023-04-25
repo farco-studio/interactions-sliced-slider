@@ -1,0 +1,27 @@
+{
+  "name": "HeroCutImages",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
+    "build": "npm run clean && npm run build:parcel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:farco-studio/text-hover-cards.git"
+  },
+  "keywords": [],
+  "author": "Marina Gallardo",
+  "license": "MIT",
+  "homepage": "https://www.farcostudio.com",
+  "devDependencies": {
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "gsap": "^3.11.5"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
