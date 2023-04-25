@@ -207,37 +207,37 @@ body {
 
 .slider__item.active .slide__part--4::before {
   animation-name: scaleIn;
-  animation-duration: 4s;
+  animation-duration: 4.5s;
   animation-timing-function: ease;
-  animation-delay: 0.6s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;  
 }
 
 .slider__item.active .slide__part--3::before {
   animation-name: scaleIn;
-  animation-duration: 4s;
+  animation-duration: 4.5s;
   animation-timing-function: ease;
-  animation-delay: 0.4s;
+  animation-delay: 1.4s;
   animation-fill-mode: forwards;  
 }
 
 
 .slider__item.active .slide__part--2::before {
   animation-name: scaleIn;
-  animation-duration: 4s;
+  animation-duration: 4.5s;
   animation-timing-function: ease;
-  animation-delay: 0.2s;
+  animation-delay: 1.2s;
   animation-fill-mode: forwards;  
 }
 
 .slider__item.active .slide__part--1::before {
   animation-name: scaleIn;
-  animation-duration: 4s;
+  animation-duration: 4.5s;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
 }
 
-.slide__part::after {
+.slide__part .line {
   content: "";
   width: 2px;
   z-index: 50;
@@ -246,9 +246,9 @@ body {
   position: absolute;
   top: 0;
   /* left: 0; */
-  right: 0;
+  left: 0;
   height: 100vh;
-  background: var(--color-primary);
+  background: var(--color-secondary);
 }
 
 .slide__part--2 {
@@ -258,7 +258,6 @@ body {
   overflow: hidden;
   left: 0;
   width: 25vw;
-  border-left: 1px solid white;
   left: 25vw;
 }
 
@@ -275,7 +274,7 @@ body {
 }
 
 .slide__part--1::before {
-  clip-path: polygon(0 0, 25% 0, 25% 100%, 0 100%);
+  clip-path: polygon(0 0, 25% 0, 25% 100vw, 0 100vw);
   z-index: 2;
   height: 100vh;
   bottom: 0;
@@ -300,7 +299,7 @@ body {
 }
 
 .slide__part--3::before {
-  clip-path: polygon(50% 0%, 75% 0%, 75% 100%, 50% 100%);
+  clip-path: polygon(50% 0%, 75% 0%, 75% 100vw, 50% 100vw);
   z-index: 2;
   /* background-image: url('../images/imagen-1.jpg'); */
   animation-fill-mode: forwards;
@@ -327,7 +326,7 @@ body {
 }
 
 .slide__part--4::before {
-  clip-path: polygon(70% 0%, 100% 0%, 100% 100%, 70% 100%);
+  clip-path: polygon(70% 0%, 100vw 0%, 100vw 100vw, 70% 100vw);
   z-index: 2;
   /* background-image: url('../images/imagen-1.jpg'); */
   height: 100vh;
@@ -414,7 +413,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: -2px;
   top: 0;
   width: 25vw;
   z-index: 30;
