@@ -138,12 +138,15 @@ const init = () => {
 
 // Inicia la aplicación
 
-drawLines();
+setTimeout(() => {
+  drawLines();
+}, 200);
+
 
 
 setTimeout(() => {
   init();
-}, 400);
+}, 600);
 
 
 
