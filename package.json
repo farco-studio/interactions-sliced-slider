@@ -21,7 +21,8 @@
     "parcel": "latest"
   },
   "dependencies": {
-    "gsap": "^3.11.5"
+    "gsap": "^3.11.5",
+    "split-text-js": "^1.0.3"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
