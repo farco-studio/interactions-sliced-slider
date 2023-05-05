@@ -481,11 +481,11 @@ body {
   }
 
   .slider__content .slide__part--1 {
-    top: 25vh;
+    top: 25%;
   }
 
   .slider__content .slide__part--2 {
-    top: 50vh;
+    top: 50%;
   }
 
   .slide__part::before {
@@ -493,15 +493,15 @@ body {
   }
 
   .slide__part--2 {
-    top: 25vh;
+    top: 25%;
   }
 
   .slide__part--3 {
-    top: 50vh;
+    top: 50%;
   }
 
   .slide__part--4 {
-    top: 75vh;
+    top: 75%;
   }
 
   .curtain {
