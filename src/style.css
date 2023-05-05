@@ -273,7 +273,7 @@ body {
 
 .slide__part .line {
   content: "";
-  width: 1px;
+  width: 0.5px;
   z-index: 50;
   display: block;
   position: absolute;
@@ -511,7 +511,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    height: 1px;
+    height: 0.5px;
     width: 100vw;
   }
 
