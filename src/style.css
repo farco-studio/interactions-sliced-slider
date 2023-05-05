@@ -273,7 +273,7 @@ body {
 
 .slide__part .line {
   content: "";
-  width: 0.5px;
+  width: 1px;
   z-index: 50;
   display: block;
   position: absolute;
@@ -307,7 +307,7 @@ body {
 }
 
 .slider .slider__item:first-child .slide__part::before {
-  background-image: url("../images/imagen-3.jpg");
+  background-image: url("../images/imagen-4.jpg");
 }
 
 .slider .slider__item:nth-child(2) .slide__part::before {
@@ -511,7 +511,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    height: 0.5px;
+    height: 1px;
     width: 100vw;
   }
 
@@ -580,5 +580,9 @@ body {
     margin-top: 0;
     margin-right: 0;
     margin-left: -10px;
+  }
+
+  path {
+    stroke-width: 2px;
   }
 }
