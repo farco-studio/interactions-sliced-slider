@@ -170,6 +170,6 @@ setTimeout(() => {
   drawLines();
 }, 200);
 
-setTimeout(() => {
+// setTimeout(() => {
   sliderAnimation();
-}, 600);
+// }, 600);
