@@ -160,7 +160,6 @@ body {
   min-height: -moz-available;
   min-height: -webkit-fill-available;
   min-height: fill-available;
-
   position: absolute;
   inset: 0;
   overflow: hidden;
@@ -475,7 +474,7 @@ body {
   .slide__part {
     width: 100vw;
     min-height: auto !important;
-    height: 25vh !important;
+    height: 25% !important;
     left: 0;
     right: 0;
   }
