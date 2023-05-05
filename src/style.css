@@ -132,17 +132,24 @@ body {
 .slider {
   width: 100%;
   min-height: 100vh;
+  min-height: -moz-available;
+  min-height: -webkit-fill-available;
+  min-height: fill-available;
+
   overflow: hidden;
 }
 
 .slider__item {
   width: 100%;
   min-height: 100vh;
+  min-height: -moz-available;
+  min-height: -webkit-fill-available;
+  min-height: fill-available;
+
   position: relative;
 }
 
 .slide__part {
-  min-height: 100vh;
   position: absolute;
   left: 0;
   right: 0;
@@ -150,6 +157,10 @@ body {
   bottom: 0;
   overflow: hidden;
   min-height: 100vh;
+  min-height: -moz-available;
+  min-height: -webkit-fill-available;
+  min-height: fill-available;
+
   position: absolute;
   inset: 0;
   overflow: hidden;
@@ -171,7 +182,6 @@ body {
   top: 0;
   bottom: 0;
 }
-
 
 .slide__part--2::before {
   clip-path: polygon(25% 0%, 55% 0%, 55% 100%, 25% 100%);
@@ -227,8 +237,6 @@ body {
   animation-fill-mode: forwards;
 }
 
-
-
 .fade-in {
   opacity: 0;
   animation-name: fadeIn;
@@ -278,6 +286,10 @@ body {
 
 .slide__part--2 {
   min-height: 100vh;
+  min-height: -moz-available;
+  min-height: -webkit-fill-available;
+  min-height: fill-available;
+
   position: absolute;
   inset: 0;
   overflow: hidden;
@@ -296,7 +308,7 @@ body {
 }
 
 .slider .slider__item:first-child .slide__part::before {
-  background-image: url("../images/imagen-3.jpg");
+  background-image: url("../images/imagen-4.jpg");
 }
 
 .slider .slider__item:nth-child(2) .slide__part::before {
@@ -328,6 +340,10 @@ body {
 
 .slide__part--3 {
   min-height: 100vh;
+  min-height: -moz-available;
+  min-height: -webkit-fill-available;
+  min-height: fill-available;
+
   position: absolute;
   inset: 0;
   overflow: hidden;
@@ -352,6 +368,10 @@ body {
 
 .slide__part--4 {
   min-height: 100vh;
+  min-height: -moz-available;
+  min-height: -webkit-fill-available;
+  min-height: fill-available;
+
   position: absolute;
   inset: 0;
   overflow: hidden;
@@ -377,6 +397,9 @@ body {
   max-width: 100%;
   object-fit: cover;
   min-height: 100vh;
+  min-height: -moz-available;
+  min-height: -webkit-fill-available;
+  min-height: fill-available;
 }
 
 .slide__text {
@@ -508,7 +531,8 @@ body {
     left: 16px;
   }
 
-  .title, .country {
+  .title,
+  .country {
     left: 16px;
     font-size: 10vh;
     line-height: 12vh;
@@ -558,5 +582,5 @@ body {
     margin-top: 0;
     margin-right: 0;
     margin-left: -10px;
-  }  
+  }
 }
