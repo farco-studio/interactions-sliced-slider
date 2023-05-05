@@ -370,7 +370,6 @@ body {
   min-height: -moz-available;
   min-height: -webkit-fill-available;
   min-height: fill-available;
-
   position: absolute;
   inset: 0;
   overflow: hidden;
