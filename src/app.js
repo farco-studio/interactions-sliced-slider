@@ -1,7 +1,7 @@
 import { gsap } from "gsap";
 import { setSplitText } from "./setSplitText";
 
-const isMobile = window.matchMedia("(max-width: 768px)").matches;
+let isMobile = window.matchMedia("(max-width: 768px)").matches;
 const arrow = document.querySelector(".slider__content svg");
 const initialPosition = -260;
 const sliderItems = document.querySelectorAll(".slider .slider__item");
@@ -171,3 +171,10 @@ setTimeout(() => {
 }, 200);
 
 sliderAnimation();
+
+window.onresize = () => {
+  isMobile = window.matchMedia("(max-width: 768px)").matches;
+  tl.restart();
+  tl.clear()
+  tl.play();
+}
