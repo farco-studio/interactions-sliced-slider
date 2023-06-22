@@ -4,7 +4,7 @@
 # Sliced Image Slider Animation
 Free, refined interactions to inspire our community and make the web a more beautiful place.
 
-[Demo](https://interactions-ripple-button.onrender.com/)
+[Demo](https://interactions-slider-sliced.onrender.com)
 
 
 ## Installation
